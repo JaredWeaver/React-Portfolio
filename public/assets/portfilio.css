@@ -1,0 +1,112 @@
+body{
+    font-family: 'Enriqueta', serif;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.navbar-custom{
+    background-color:#013220;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.navbar,
+.navbar-brand {
+    font-size: 26px;
+    color: white;
+    padding: .5px;
+    float: left;
+}
+
+.nav-link {
+    color: white;
+}
+
+a:hover {
+ color: grey;
+}
+
+i{
+    padding: 3px;
+    color: white;
+    float: left;
+    
+}
+
+i:hover {
+    color:grey;
+
+}
+
+.jumbotron {
+    background-image: url(../assets/Images/kiki-jared.jpg);
+    opacity: .75;
+    background-size: cover;
+    background-position: center,center;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    border: black;
+    border-radius: 0;
+    text-align: left;
+}
+
+.gif-section{
+    background-color: #013220;
+}
+
+.col-md-4{
+    border:10px solid #013220;
+    border-radius: 0px;
+    background-color: #6c8a70;
+}
+
+.card-img-top{
+    background-size: cover;
+    background-position: center,center;
+    background-repeat: no-repeat;
+    opacity: .5;
+    height: 245px;
+   
+}
+
+.card-img-top:hover{
+    opacity: 1;
+}
+
+
+.card-header{
+    color: white;
+    background-color: #013220;
+    font-size: large;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-body{
+    background-color: #6c8a70;
+    font-size: 20px;
+}
+
+.footer i {
+    float: right;
+
+}
+
+.footer {
+    background-color: #013220;
+    color: white;
+    width:100%;
+    position:static;
+    bottom: 0px;
+    padding: 20px;
+    height: 100%;
+    }
+    

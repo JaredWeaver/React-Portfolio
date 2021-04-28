@@ -1,0 +1,111 @@
+body{
+    font-family: 'Enriqueta', serif;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+main {
+    height: 100%;
+}
+
+.navbar-custom{
+    background-color:#013220;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.navbar,
+.navbar-brand {
+    font-size: 26px;
+    color: white;
+    padding: .5px;
+    float: left;
+}
+
+.jumbotron {
+    background-image: url(../assets/Images/IMG-9675.jpg);
+    opacity: .75;
+    background-size: cover;
+    background-position: center,center;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    border: black;
+    border-radius: 0;
+    text-align: left;
+    height: 50vh;
+}
+
+
+.nav-link {
+    color: white;
+}
+
+a:hover {
+ color: grey;
+}
+
+i{
+    padding: 3px;
+    color: white;
+    float: left;
+    
+}
+
+i:hover {
+    color:grey;
+
+}
+
+.col-lg-4 {
+    border: 5px solid #013220;
+    border-radius: 0px;
+    background-color:#6c8a70;
+    color: white;
+    bottom: 0;
+    padding: 20px;
+
+}
+
+p {
+    font-size: 22px;
+}
+
+
+.btn-block {
+    background-color:#013220 ;
+    color: white;
+}
+
+.btn-block a {
+    color: white;
+}
+
+table{
+    font-size: 14px;
+}
+
+.table-custom{
+    background-color: #6c8a70;
+    color:white;
+    text-align: center;
+}
+
+.footer i {
+    float: right;
+
+}
+.footer {
+        background-color: #013220;
+        color: white;
+        width:100%;
+        position:static;
+        bottom: 0px;
+        padding: 20px;
+        height: 100%;
+        }
