@@ -13,7 +13,7 @@ const Contact = () => {
                   <h3 className="mb-0">Contact Me</h3>
                 </div>
                 <div className="card-body">
-                  <form className="form" role="form" autocomplete="off">
+                  <form className="form" autocomplete="off">
                     <fieldset>
                       <label for="name2" className="mb-0">
                         Name
