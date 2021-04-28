@@ -1,29 +1,10 @@
 import React from 'react';
-
+import Jumbotron from '../components/Jumbotron';
 const Projects = () => {
   return (
     <div>
       <main>
-        <section>
-          <div className="row">
-            <div className="col-md-12">
-              <div className="jumbotron jumbotron-fluid mt-5 mb-0 text-left">
-                <h1 className="display-3">Projects</h1>
-                <br />
-                <br />
-                <br />
-                <br /> <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-              </div>
-            </div>
-          </div>
-        </section>
+        <Jumbotron imageBG="url(/assets/Images/kiki-jared.jpg)" />
         <section className="container-fluid gif-section">
           <div className="row mt-0 mb-0">
             <div className="col-md-4">

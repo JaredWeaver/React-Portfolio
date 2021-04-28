@@ -1,111 +1,148 @@
-body{
-    font-family: 'Enriqueta', serif;
+body {
+  font-family: 'Enriqueta', serif;
+  background-color:#6c8a70;
 }
 
 html,
 body {
-    margin: 0;
+  margin: 0;
 }
 
 main {
-    height: 100%;
+  height: 100%;
 }
 
-.navbar-custom{
-    background-color:#013220;
+.navbar-custom {
+  background-color: #013220;
 }
 
-.navbar-toggler{
-    background-color: white;
+.navbar-toggler {
+  background-color: white;
 }
 
 .navbar,
 .navbar-brand {
-    font-size: 26px;
-    color: white;
-    padding: .5px;
-    float: left;
+  font-size: 26px;
+  color: white;
+  padding: 0.5px;
+  float: left;
 }
 
 .jumbotron {
-    background-image: url(../assets/Images/IMG-9675.jpg);
-    opacity: .75;
-    background-size: cover;
-    background-position: center,center;
-    background-repeat: no-repeat;
-    color: white;
-    font-weight: bold;
-    border: black;
-    border-radius: 0;
-    text-align: left;
-    height: 50vh;
+  /* background-image: url(../assets/Images/IMG-9675.jpg); */
+  opacity: 0.75;
+  background-size: cover;
+  background-position: center, center;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: bold;
+  border: black;
+  border-radius: 0;
+  text-align: left;
+  height: 50vh;
 }
 
-
 .nav-link {
-    color: white;
+  color: white;
 }
 
 a:hover {
- color: grey;
+  color: grey;
 }
 
-i{
-    padding: 3px;
-    color: white;
-    float: left;
-    
+i {
+  padding: 3px;
+  color: white;
+  float: left;
 }
 
 i:hover {
-    color:grey;
-
+  color: grey;
 }
 
 .col-lg-4 {
-    border: 5px solid #013220;
-    border-radius: 0px;
-    background-color:#6c8a70;
-    color: white;
-    bottom: 0;
-    padding: 20px;
-
+  border: 5px solid #013220;
+  border-radius: 0px;
+  background-color: #6c8a70;
+  color: white;
+  bottom: 0;
+  padding: 20px;
 }
 
 p {
-    font-size: 22px;
+  font-size: 22px;
 }
 
-
 .btn-block {
-    background-color:#013220 ;
-    color: white;
+  background-color: #013220;
+  color: white;
 }
 
 .btn-block a {
-    color: white;
+  color: white;
 }
 
-table{
-    font-size: 14px;
+table {
+  font-size: 24px;
+  justify-content: center;
+  
 }
 
-.table-custom{
-    background-color: #6c8a70;
-    color:white;
-    text-align: center;
+.table-custom {
+  background-color: #6c8a70;
+  color: white;
+  text-align: center;
 }
 
+.gif-section {
+  background-color: #013220;
+}
+
+.col-md-4 {
+  border: 10px solid #013220;
+  border-radius: 0px;
+  background-color: #6c8a70;
+}
+
+.card-img-top {
+  background-size: cover;
+  background-position: center, center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  height: 245px;
+}
+
+.card-img-top:hover {
+  opacity: 1;
+}
+
+.card-header {
+  color: white;
+  background-color: #013220;
+  font-size: large;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-body {
+  background-color: #6c8a70;
+  font-size: 20px;
+}
+
+.footerLink {
+    background-color: #013220;
+}
 .footer i {
-    float: right;
-
+  float: right;
 }
 .footer {
-        background-color: #013220;
-        color: white;
-        width:100%;
-        position:static;
-        bottom: 0px;
-        padding: 20px;
-        height: 100%;
-        }
+  background-color: #013220;
+  color: white;
+  width: 100%;
+  position: static;
+  bottom: 0px;
+  padding: 20px;
+  height: 100%;
+}

@@ -1,8 +1,10 @@
 import React from 'react';
+import Jumbotron from '../components/Jumbotron';
 
 const Contact = () => {
   return (
     <div>
+    <Jumbotron imageBG="url(/assets/Images/contacts-jumbo.jpg)" titleTop='Contact Me' />
       <main>
         <section>
           <div className="row">
@@ -46,7 +48,7 @@ const Contact = () => {
                       <label for="message2" className="mb-0">
                         Message
                       </label>
-                      <div className="row mb-1">
+                      <div className="row ">
                         <div className="col-lg-12">
                           <textarea
                             rows="6"
@@ -71,7 +73,7 @@ const Contact = () => {
           </div>
         </section>
       </main>
-    </div>
+      </div>
   );
 };
 
